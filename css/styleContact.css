@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.html,
+body{
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+}
+
+.container{
+    max-width: 1366px;
+    min-width: 400px;
+    margin: 0 auto;
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.padding-site{
+    padding-left: 98px;
+    padding-right: 167px;
+}
+
+
+
+.contactHead{
+    background-color: #f5f5f5;
+    min-height: 360px;
+    min-height: 100%;
+}
+
+.slider{
+    position: relative;
+}
+
+.header{
+    padding-top: 63px;
+    padding-left: 98px;
+    padding-right: 167px;
+}
+
+.menu{
+    float: right;
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-link{
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 10px 13px;
+    text-decoration: none;
+}
+
+.menu-link:hover{
+    color: #212121;
+}
+
+.menu-link-active{
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+    text-decoration: none;
+}
+
+.slider-text{
+    margin-top: 100px;
+    margin-left: 101px;
+}
+
+.slider-h2{
+    color: #212121;
+    font-size: 62px;
+    font-weight: 200;
+    padding-top: 50px;
+    padding-bottom: 46px;
+}
+
+.contactAddress {
+    min-height: 563px;
+    min-height: 100%;
+    max-width: 1366px;
+    min-width: 400px;
+    text-align: center;
+    padding-top: 71px;
+    padding-bottom: 122px;
+
+}
+
+.contactStore{
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;
+    opacity: 0.9;
+    height: 370px;
+    width: 370px;
+    display: inline-block;
+    margin: 0 15px 0 15px;
+ 
+}
+
+.contactStore img{
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 34px;
+}
+
+.nameSity{
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 23px;
+}
+
+.contactStorePhone{
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 5px;
+}
+
+.contactStoreNumberPhone{
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.contactStoreEmail{
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 5px;
+}
+
+.contactStoreEmailAddress{
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.contactStoreSityAddressName{
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 5px;
+}
+
+.contactStoreSityAddress{
+    color: #8d8d8d;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/*футер*/
+.footer{
+    height: 264px;
+    background-color: #f7f7f7;
+    position: relative;
+    padding-top: 120px;
+    padding-left: 99px;
+    padding-right: 105px;
+}
+
+.contacts {
+    height: 216px;
+}
+
+.contactUS {
+    width: 221px;
+    float: left;
+}
+
+.information {
+    float: left;
+}
+
+.message{
+    float: right;
+     width: 370px;
+}
+
+.contacts-h2{
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-bottom: 24px;
+}
+
+.contactsUS-list{
+    list-style-type: none;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.contactsUS-list li{
+   margin-bottom: 35px;
+}
+
+.informalion-list1{
+  list-style-type: none;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    margin-right: 103px;
+}
+
+.informalion-list2{
+  list-style-type: none;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+
+.information ul{
+    float: left;
+    display: inline-block;
+}
+
+.information li{
+    margin-bottom: 16px;
+}
+
+.message-content{
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 26px;
+}
+
+.aboutLeft{
+    float: left;
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    width: 33%;
+}
+
+.aboutCenter{
+    float: left;
+    width: 34%;
+    text-align: center;
+}
+
+.aboutRight{
+    float: right;
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    width: 33%;
+}
+
+.message input[name="email"] {
+    border: 1px solid #d9dee1;
+    background-color: #ffffff;
+    padding: 17px 30px 17px 19px;
+    width: 320px;
+}
+
+.messageEmail{
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+.message a[name="air"]{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 16px;
+    margin-right: 4px;
+    display: inline-block;
+}
+ 
